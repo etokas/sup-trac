@@ -1,0 +1,1 @@
+angular.module('sampleApp', ['ui.router', 'ngToast',  'btford.socket-io', 'appRoutes', 'MainCtrl', 'TicketCtrl', 'NotifCtrl', 'AuthCtrl', 'UserProvider', 'TicketProvider', 'SocketProvider']);

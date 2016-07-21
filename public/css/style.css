@@ -1,0 +1,11 @@
+body { padding-top:30px; }
+
+
+#comment{
+    margin-bottom: 20px
+}
+#comment .comment-one{
+    border: 1px solid;
+    padding: 10px;
+    margin : 5px 0;
+}

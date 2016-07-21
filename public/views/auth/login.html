@@ -1,0 +1,14 @@
+<h3>Se connecter</h3>
+
+<form>
+    <div class="form-group">
+        <label for="username">Nom d'utilisateur</label>
+        <input type="text" class="form-control" id="username" placeholder="Nom d'utilisateur" ng-model="user.username">
+    </div>
+    <div class="form-group">
+        <label for="password">Mot de passe</label>
+        <input type="password" class="form-control" id="password" placeholder="Mot de passe" ng-model="user.password">
+    </div>
+
+    <button type="submit" class="btn btn-default" ng-click="login(user)">Se connecter</button>
+</form>

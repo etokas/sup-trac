@@ -1,0 +1,23 @@
+<h3>Ticket</h3>
+
+<p>Titre : {{ ticket.title }}</p>
+<p>Priorité : {{ticket.priority}}</p>
+<p>Créer par : {{ticket.createby.firstname}}</p>
+<p>Status : {{ticket.status}}</p>
+<p>Description : {{ticket.description}}</p>
+<button>Stop working</button>
+
+<hr>
+<h2>Ajouter un commentaire</h2>
+
+<div id="comment">
+   <div class="comment-one" ng-repeat="comment in comments">
+       <p>Posté par : {{comment.user.lastname}} {{comment.user.firstname}}</p>
+       <p>{{ comment.texte}}</p>
+   </div>
+</div>
+
+<form>
+    <textarea class="form-control" id="texte" placeholder="Contenu du commentaire" ng-model="ticket.comments.texte"></textarea>
+    <input type="submit" value="Ajouter" ng-click="addComment(ticket)">
+</form>

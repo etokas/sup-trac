@@ -1,0 +1,19 @@
+<h3>Créer un ticket</h3>
+
+<form>
+    <div class="form-group">
+        <label for="title">Titre</label>
+        <input type="text" class="form-control" id="title" placeholder="title" ng-model="ticket.title">
+    </div>
+    <div class="form-group">
+        <label for="description">Description</label>
+        <textarea class="form-control" id="description" placeholder="description" ng-model="ticket.description"></textarea>
+    </div>
+
+    <select name="priority" id="priority" ng-model="ticket.priority">
+        <option value="">- Selectionnez  la prioriré -</option>
+        <option ng-repeat="priority in priorities" value="{{ priority}}"> {{priority}}</option>
+    </select>
+
+    <button type="submit" class="btn btn-default" ng-click="create(ticket)">Ajouter un ticket</button>
+</form>

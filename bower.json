@@ -1,0 +1,12 @@
+{
+  "name": "angular",
+  "version": "1.0.0",
+  "dependencies": {
+    "bootstrap": "latest",
+    "angular": "latest",
+    "angular-route": "latest",
+    "angular-ui-router": "ui-router#^0.3.1",
+    "angular-socket-io": "^0.7.0",
+    "ngToast": "ngtoast#^2.0.0"
+  }
+}

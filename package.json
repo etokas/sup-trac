@@ -1,0 +1,17 @@
+{
+  "name": "suptrac",
+  "main": "server.js",
+  "dependencies": {
+    "bluebird": "^3.4.1",
+    "body-parser": "~1.4.2",
+    "express": "~4.5.1",
+    "http": "0.0.0",
+    "method-override": "~2.0.2",
+    "mongoose": "~3.8.*",
+    "mongoose-relationship": "^0.1.5",
+    "nodemailer": "^2.4.2",
+    "pow-mongodb-fixtures": "^0.13.0",
+    "socket.io": "^1.2.0",
+    "underscore": "^1.8.3"
+  }
+}
